@@ -5,7 +5,7 @@ function AllBeers({beer}){
 
     return (
       <div className="row">
-        <div className="col-4 m-auto p-3">
+        <div className="col-sm-4 m-auto p-3">
           <Link to={"/beers/" + beer._id}>
             <img
               src={beer.image_url}
@@ -16,7 +16,7 @@ function AllBeers({beer}){
         </div>
 
         <div
-          className="card-body col-4 m-auto p-3"
+          className="card-body col-sm-4 m-auto p-3"
           style={{ textAlign: "left" }}
         >
           <h1>{beer.name}</h1>
