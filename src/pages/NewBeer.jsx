@@ -53,14 +53,14 @@ function NewBeer(){
 
 
     return (
-      <div className="container-fluid">
+      <div className="container">
         <div className="row mt-5">
           <form onSubmit={submitFormHandler}>
             <div className="col-12 fw-bold">
               <label>Name</label>
             </div>
             <input
-              className="col-2"
+              className="col-10 col-sm-8 col-md-6 rounded mb-3"
               type="text"
               name="name"
               onChange={nameHandler}
@@ -71,7 +71,7 @@ function NewBeer(){
               <label>Tagline</label>
             </div>
             <input
-              className="col-2"
+              className="col-10 col-sm-8 col-md-6 rounded mb-3"
               type="text"
               name="tagline"
               onChange={taglineHandler}
@@ -82,7 +82,7 @@ function NewBeer(){
               <label>Description</label>
             </div>
             <input
-              className="col-2"
+              className="col-10 col-sm-8 col-md-6 rounded mb-3"
               type="text"
               name="description"
               onChange={descriptionHandler}
@@ -93,7 +93,7 @@ function NewBeer(){
               <label>First Brewed</label>
             </div>
             <input
-              className="col-2"
+              className="col-10 col-sm-8 col-md-6 rounded mb-3"
               type="text"
               name="first_brewed"
               onChange={firstBrewedHandler}
@@ -104,7 +104,7 @@ function NewBeer(){
               <label>Brewers Tips</label>
             </div>
             <input
-              className="col-2"
+              className="col-10 col-sm-8 col-md-6 rounded mb-3"
               type="text"
               name="brewers_tips"
               onChange={brewersTipsHandler}
@@ -115,7 +115,7 @@ function NewBeer(){
               <label>Attenuation Level</label>
             </div>
             <input
-              className="col-2"
+              className="col-10 col-sm-8 col-md-6 rounded mb-3"
               type="number"
               name="attenuation_level"
               onChange={attenuationLevelHandler}
@@ -126,7 +126,7 @@ function NewBeer(){
               <label>Contributed by</label>
             </div>
             <input
-              className="col-2"
+              className="col-10 col-sm-8 col-md-6 rounded mb-3"
               type="text"
               name="contributed_by"
               onChange={contributedByHandler}
