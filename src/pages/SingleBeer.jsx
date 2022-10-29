@@ -22,7 +22,7 @@ function SingleBeer(){
         <div className="col-8 m-auto">
           <div className="row m-auto">
             <img
-              className="img-fluid w-25"
+              className="img-fluid m-auto w-25"
               src={beer.image_url}
               alt={beer.name}
             />
